@@ -1,1 +1,0 @@
-export const sessionStorageKey = 'session-access-token'

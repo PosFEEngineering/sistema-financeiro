@@ -24,9 +24,7 @@ export default function Layout({
           "
     >
       <UnauthenticatedHeader />
-      <div className="w-full mx-auto mb-auto px-4 relative">
-        {children}
-      </div>
+      <div className="w-full mx-auto mb-auto px-4">{children}</div>
       <UnauthenticatedFooter />
     </main>
   );
